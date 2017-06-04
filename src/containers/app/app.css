@@ -1,0 +1,73 @@
+.ant-layout-aside {
+  position: relative;
+  min-height: 100%;
+}
+
+.ant-layout-aside .ant-layout-logo {
+  width: 100%;
+  height: 65px;
+  background: transparent url(http://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png) no-repeat center;
+  background-size: 70%;
+  background-position: 15px 10px;
+}
+
+.ant-layout-aside .ant-layout-sider {
+  width: 224px;
+  background: #404040;
+  position: absolute;
+  overflow: auto;
+  padding-bottom: 24px;
+  height: 100%;
+}
+
+.ant-layout-aside .ant-layout-sider > .ant-menu {
+  margin-bottom: 20px;
+}
+
+.ant-layout-aside .ant-layout-header {
+  background: rgba(255, 255, 255, 0.8);
+  height: 64px;
+
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.ant-layout-aside .ant-layout-breadcrumb {
+  margin: 7px 0 -17px 24px;
+}
+
+.ant-layout-aside .ant-layout-main {
+  margin-left: 224px;
+}
+
+.ant-layout-aside .ant-layout-container {
+  margin: 0px 16px;
+}
+
+.ant-layout-aside .ant-layout-content {
+  background: #fff;
+  padding: 24px;
+  // max-height: 650px;
+  overflow: scroll;
+}
+
+.ant-layout-aside .ant-layout-footer {
+  // height: 64px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  // line-height: 64px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  background: #fff;
+  border-top: 1px solid #e9e9e9;
+  width: 100%;
+}
+
+.user-info-wrap {
+  float: right;
+}
+
+.logout-button {
+  padding-left: 5px;
+}
